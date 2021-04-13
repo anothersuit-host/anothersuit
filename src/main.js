@@ -24,6 +24,7 @@ new Vue({
 
 	scrollBehavior: function(to, from, savedPosition)
 	{
+		console.log('test');
 		// return { x: 0, y: 0 }
 		document.getElementById('app').scrollIntoView();
 	}
