@@ -19,7 +19,6 @@ new Vue({
 		{
 			console.log(path);
 			localStorage.removeItem('path');
-			console.log(path)
 			this.router.push(path);
 		}
 	}
