@@ -31,19 +31,6 @@
 </template>
 
 
-<!-- <script>
-export default
-{
-	name: 'Work',
-	methods: {
-		scrollToTop() {
-			window.scrollTo(0,0);
-		}
-	}
-}
-</script> -->
-
-
 <style lang='scss'>
 	@import '../styles/global.scss';
 

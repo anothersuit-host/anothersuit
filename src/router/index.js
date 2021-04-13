@@ -9,7 +9,7 @@ import Project from '../components/Project.vue';
 import Contact from '../components/Contact.vue';
 
 
-export const router = new VueRouter({
+const router = new VueRouter({
 	mode: 'history',
 	base: __dirname,
 	routes: [
@@ -18,3 +18,12 @@ export const router = new VueRouter({
 		{ path: '/contact', component: Contact }
 	]
 });
+
+
+router.beforeEach(function(to, from, next)
+{
+	window.scrollTo(0, 0)
+	next()
+})
+
+export { router }
