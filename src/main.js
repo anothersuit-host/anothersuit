@@ -17,9 +17,9 @@ new Vue({
 		var path = localStorage.getItem('path');
 		if(path)
 		{
-			console.log(path);
+			console.log(path, router);
 			localStorage.removeItem('path');
-			this.router.push(path);
+			router.push(path);
 		}
 	}
 }).$mount('#app');
