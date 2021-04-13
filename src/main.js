@@ -19,7 +19,7 @@ new Vue({
 		{
 			console.log(path);
 			localStorage.removeItem('path');
-			// this.router.navigate([path]);
+			this.router.navigate([path]);
 		}
 	}
 }).$mount('#app');
