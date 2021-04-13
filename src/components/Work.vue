@@ -31,7 +31,7 @@
 </template>
 
 
-<script>
+<!-- <script>
 export default
 {
 	name: 'Work',
@@ -41,7 +41,7 @@ export default
 		}
 	}
 }
-</script>
+</script> -->
 
 
 <style lang='scss'>

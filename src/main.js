@@ -10,5 +10,15 @@ new Vue({
 	el: '#app',
 	template: '<app></app>',
 	components: { App },
-	router
+	router,
+
+	mounted: function()
+	{
+		var path = localStorage.getItem('path');
+		if(path)
+		{
+			localStorage.removeItem('path');
+			this.router.navigate([path]);
+		}
+	}
 }).$mount('#app');
