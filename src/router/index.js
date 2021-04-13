@@ -23,6 +23,7 @@ const router = new VueRouter({
 router.beforeEach(function(to, from, next)
 {
 	window.scrollTo(0, 0)
+	console.log('test')
 	next()
 })
 
