@@ -1,31 +1,31 @@
 <template>
 	<div id='portfolio'>
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/1'><img src='assets/matics_thumb.jpg'/></router-link>
+			<router-link to='/work/1'><img src='assets/matics_thumb.jpg'/></router-link>
 		</div>
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/2'><img src='assets/cosmonot_thumb.jpg'/></router-link>
+			<router-link to='/work/2'><img src='assets/cosmonot_thumb.jpg'/></router-link>
 		</div>
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/3'><img src='assets/napa_thumb.jpg'/></router-link>
+			<router-link to='/work/3'><img src='assets/napa_thumb.jpg'/></router-link>
 		</div>
 		
 
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/4'><img src='assets/livingspaces_thumb.jpg'/></router-link>
+			<router-link to='/work/4'><img src='assets/livingspaces_thumb.jpg'/></router-link>
 		</div>
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/5'><img src='assets/turfpatrol_thumb.jpg'/></router-link>
+			<router-link to='/work/5'><img src='assets/turfpatrol_thumb.jpg'/></router-link>
 		</div>
 
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/6'><img src='assets/addisontruck_thumb.jpg'/></router-link>
+			<router-link to='/work/6'><img src='assets/addisontruck_thumb.jpg'/></router-link>
 		</div>
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/7'><img src='assets/tricountypools_thumb.jpg'/></router-link>
+			<router-link to='/work/7'><img src='assets/tricountypools_thumb.jpg'/></router-link>
 		</div>
 		<div class='work'>
-			<router-link v-on:click.native="scrollToTop()" to='/work/8'><img src='assets/bitjewellery_thumb.jpg'/></router-link>
+			<router-link to='/work/8'><img src='assets/bitjewellery_thumb.jpg'/></router-link>
 		</div>
 	</div>
 </template>

@@ -17,7 +17,6 @@ new Vue({
 		var path = localStorage.getItem('path');
 		if(path)
 		{
-			console.log(router);
 			localStorage.removeItem('path');
 			router.push(path);
 		}
