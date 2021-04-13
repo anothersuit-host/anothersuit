@@ -1,0 +1,83 @@
+@media only screen and (min-width:320px) and (max-width:768px)
+{
+	nav
+	{
+		position: relative;
+
+		ul
+		{
+			margin-top: 0;
+
+			li
+			{
+				font-size: 1em;
+				padding: 0;
+
+				display: block;
+
+				&#contact
+				{
+					padding-top: 10px;
+				}
+
+				a
+				{
+					display: block;
+				}
+
+				&#logo
+				{
+					padding-top: 0;
+					padding-bottom: 0;
+					margin-bottom: 20px;
+
+					a
+					{
+						font-size: 1em;
+					}
+				}
+			}
+		}
+	}
+
+	#portfolio
+	{
+		padding-top: 0px;
+	}
+
+	.work
+	{
+		width: 100%;
+		float: none;
+
+		img 
+		{
+			width: 100%;
+			margin: 0;
+		}
+	}
+
+	.project .caption
+	{
+		font-size: 18px;
+		line-height: 32px;
+	}
+
+	.contact
+	{
+		padding-top: 0px;
+	}
+
+	#email
+	{
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+	.work
+	{
+		width: 50%;
+	}
+}
