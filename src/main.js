@@ -20,5 +20,10 @@ new Vue({
 			localStorage.removeItem('path');
 			router.push(path);
 		}
+	},
+
+	scrollBehavior: function(to, from, savedPosition)
+	{
+		return { x: 0, y: 0 }
 	}
 }).$mount('#app');
