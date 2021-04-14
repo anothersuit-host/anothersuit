@@ -27,6 +27,9 @@
 		<div class='work'>
 			<router-link to='/work/8'><img src='assets/bitjewellery_thumb.jpg'/></router-link>
 		</div>
+		<div class='work'>
+			<router-link to='/work/9'><img src='assets/sauble_thumb.jpg'/></router-link>
+		</div>
 	</div>
 </template>
 

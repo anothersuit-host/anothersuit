@@ -57,6 +57,15 @@
 			<img src='/assets/bitjewellery_large_4.jpg'/>
 			<img src='/assets/bitjewellery_large_5.jpg'/>
 		</div>
+		<div v-if="$route.params.id === '9'" class='project'>
+			<p class='caption'>
+				Locally owned and operated small business
+				<a class='visit' target='_blank' href='https://anothersuit.000webhostapp.com/sauble'>Visit</a>
+			</p>
+			<img src='/assets/sauble_large.jpg'/>
+			<img src='/assets/sauble_large_2.jpg'/>
+			<img src='/assets/sauble_large_3.jpg'/>
+		</div>
 	</div>
 </template>
 
