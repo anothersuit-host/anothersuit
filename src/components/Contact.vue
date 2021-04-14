@@ -1,5 +1,5 @@
 <template>
-	<a id='email' href='mailto: ricksmatt@gmail.com'>ricksmatt@gmail.com</a>
+	<a id='email' href='mailto: hello@mattricks.design'>hello@mattricks.design</a>
 </template>
 
 <style lang='scss'>
