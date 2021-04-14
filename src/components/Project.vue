@@ -62,7 +62,7 @@
 				Locally owned and operated small business
 				<a class='visit' target='_blank' href='https://anothersuit.000webhostapp.com/sauble'>Visit</a>
 			</p>
-			<img src='/assets/sauble_large.jpg'/>
+			
 			<img src='/assets/sauble_large_2.jpg'/>
 			<img src='/assets/sauble_large_3.jpg'/>
 		</div>
