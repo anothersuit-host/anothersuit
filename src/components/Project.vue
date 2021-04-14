@@ -23,14 +23,14 @@
 		<div v-if="$route.params.id === '5'" class='project'>
 			<p class='caption'>
 				Concept for locally owned and operated small business
-				<a class='visit' target='_blank' href='https://anothersuit.000webhostapp.com/turfpatrol'>Visit</a>
+				<a class='visit' target='_blank' href='http://portfolio.mattricks.design/turfpatrol'>Visit</a>
 			</p>
 			<img src='/assets/turfpatrol_large.jpg'/>
 		</div>
 		<div v-if="$route.params.id === '6'" class='project'>
 			<p class='caption'>
 				Locally owned and operated small business
-				<a class='visit' target='_blank' href='https://anothersuit.000webhostapp.com/addisontruck'>Visit</a>
+				<a class='visit' target='_blank' href='http://portfolio.mattricks.design/addisontruck'>Visit</a>
 			</p>
 			<img src='/assets/addisontruck_large.jpg'/>
 			<img src='/assets/addisontruck_large_2.jpg'/>
@@ -39,7 +39,7 @@
 		<div v-if="$route.params.id === '7'" class='project'>
 			<p class='caption'>
 				Locally owned and operated small business
-				<a class='visit' target='_blank' href='https://anothersuit.000webhostapp.com/tricountypools'>Visit</a>
+				<a class='visit' target='_blank' href='http://portfolio.mattricks.design/tricountypools'>Visit</a>
 			</p>
 			<img src='/assets/tricountypools_large.jpg'/>
 			<img src='/assets/tricountypools_large_2.jpg'/>
@@ -49,7 +49,7 @@
 		<div v-if="$route.params.id === '8'" class='project'>
 			<p class='caption'>
 				Locally owned and operated small business
-				<a class='visit' target='_blank' href='https://anothersuit.000webhostapp.com/bitjewellery'>Visit</a>
+				<a class='visit' target='_blank' href='http://portfolio.mattricks.design/bitjewellery'>Visit</a>
 			</p>
 			<img src='/assets/bitjewellery_large.jpg'/>
 			<img src='/assets/bitjewellery_large_2.jpg'/>
@@ -60,7 +60,7 @@
 		<div v-if="$route.params.id === '9'" class='project'>
 			<p class='caption'>
 				Locally owned and operated small business
-				<a class='visit' target='_blank' href='https://anothersuit.000webhostapp.com/sauble'>Visit</a>
+				<a class='visit' target='_blank' href='http://portfolio.mattricks.design/sauble'>Visit</a>
 			</p>
 			<img src='/assets/sauble_large.jpg'/>
 			<img src='/assets/sauble_large_2.jpg'/>
